@@ -3,8 +3,7 @@ import PropTypes from 'prop-types';
 
 TodoList.propTypes = {
   todos:PropTypes.array,
-  // eslint-disable-next-line react/no-typos
-  onToDoClick: PropTypes.function,
+  onToDoClick: PropTypes.func,
 };
 
 TodoList.defaultProps={
